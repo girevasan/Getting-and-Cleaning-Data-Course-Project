@@ -28,4 +28,4 @@ filter_feature <- X_sets[, features_stdmean]
 names(features_stdmean) <- features_set[features_set$id %in% features_stdmean, 2]
 x_filtered <- features_stdmean
 
-act_lab <- read.table('./UCI HAR Dataset/activity_labels.txt', header=FALSE, col.names=c('id', 'name'))
+act_lab <- read.table('./UCI HAR Dataset/tidydata.txt', header=FALSE, col.names=c('id', 'name'))
